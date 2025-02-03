@@ -1,0 +1,78 @@
+<center>
+<br><br>
+
+
+<hr>
+
+<style>
+body {
+  background-image: url('http://35.136.138.227/dashboard/goz.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
+
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My Video</title>
+    <link href="https://vjs.zencdn.net/7.7.6/video-js.css" rel="stylesheet" />
+    <!-- For IE8 (for Video.js versions prior to v7)
+    <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+    -->
+  </head>
+  <body>
+
+<font size="7" color="white">
+
+<p class="p2"> DJ Stone Live</p>
+   
+<br<br>
+
+<video-js id="my_video_1" class="vjs-default-skin" controls preload="auto" width="800" height="400">
+    <source src="http://35.136.138.227:8080/hls/live/index.m3u8" type="application/x-mpegURL">
+   </video-js>
+   <!--This is for Video.js by itself -->
+   <script src="https://unpkg.com/video.js/dist/video.js"></script>
+   <!--This is for HLS compatibility with all major browsers-->
+   <script src = "https://unpkg.com/browse/@videojs/http-streaming@1.13.3/dist/videojs-http-streaming.min.js"></script>
+   <script>
+    var player = videojs('my_video_1');
+   </script>
+  </body>
+</html>
+
+<font size="5" color="white">
+
+<p class="p2"> * Start player above to watch live stream</p>
+
+
+
+<br><br>
+
+
+
+<hr>
+
+
+<!-- Default Statcounter code for DJ Stone Live
+http://35.136.138.227/dashboard/live.html -->
+<script type="text/javascript">
+var sc_project=12963328; 
+var sc_invisible=1; 
+var sc_security="4fceec3b"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="Web Analytics"
+href="https://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="https://c.statcounter.com/12963328/0/4fceec3b/1/"
+alt="Web Analytics"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->
